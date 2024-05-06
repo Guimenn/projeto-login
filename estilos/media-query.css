@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIGURAÇÃO PARA TABLET */
-    body, html {
+    body {
         background-image: linear-gradient(to bottom, #5F2C82, #49A09D);
     }
         section#login {
@@ -22,7 +22,7 @@
     }               
 
 @media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
-    body, html {
+    body {
         background-image: linear-gradient(to bottom, #5F2C82, #49A09D);
     }
     section#login {
@@ -47,7 +47,7 @@
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1.2em;   
         padding-bottom: 5px;
     }
 
